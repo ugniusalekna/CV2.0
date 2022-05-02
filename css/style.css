@@ -1,0 +1,183 @@
+body {
+  color: #393E46;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+  font-weight: normal;
+  margin: 0 auto 50px auto;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  font-weight: normal;
+  margin: 0 auto 30px auto;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 17px;
+  line-height: 2;
+  margin: 0;
+}
+
+hr {
+  border-color: #3A3845;
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 5%;
+  margin: 80px auto;
+}
+
+.mountain {
+  position: relative;
+  bottom: -4px;
+}
+
+.top_cloud {
+  position: absolute;
+  right: 650px;
+  top: 30px;
+  width: 100px;
+}
+
+.bottom_cloud {
+  position: absolute;
+  left: 650px;
+  top: 110px;
+  width: 100px;
+}
+
+.undertext {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.top_container {
+  background-color: #E3FDFD;
+  padding-top: 100px;
+  position: relative;
+  width: 100%;
+}
+
+.profile {
+  margin: 0 auto 0 auto;
+  width: 40%;
+}
+
+.profile_picture {
+  width: 165px;
+  margin: 30px auto 30px auto;
+}
+
+.suitcase_picture {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.book_picture {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.phone_picture {
+  float: left;
+  margin-right: 30px;
+  width: 20%;
+}
+
+.skill_row {
+  margin: 50px auto 0 auto;
+  width: 40%;
+}
+
+.work {
+  text-align: left;
+}
+
+.work_text {
+  padding-bottom: 50px;
+}
+.education {
+  text-align: right;
+}
+
+.education_text {
+  padding-bottom: 10px;
+}
+
+.contact_me {
+  margin: 50px auto 0;
+  text-align: center;
+  width: 40%;
+}
+
+.contact_me_text {
+  text-align: left;
+}
+
+.button_container {
+  padding: 5%;
+}
+.button {
+  background: #71C9CE;
+  background-image: linear-gradient(to bottom, #71C9CE, #A6E3E9);
+  border-radius: 14px;
+  color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 10px 20px 10px 20px;
+  margin: auto;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #71C9CE;
+  background-image: linear-gradient(to bottom, #71C9CE, #60b4b8);
+  text-decoration: none;
+}
+
+.bottom_container {
+  position: relative;
+  background-color: #A6E3E9;
+  height: 150px;
+  padding-bottom: 20px;
+}
+
+.footer_link {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  position: relative;
+  top: 70px;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-decoration: none;
+}
+
+.footer_link:hover {
+  color: #EAF6F6;
+}
+
+.copyright {
+  font-size: 0.65rem;
+  position: relative;
+  top: 75%;
+}
